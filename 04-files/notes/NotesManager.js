@@ -1,6 +1,5 @@
 const fs = require("fs");
 const crypto = require("crypto");
-const { error, log } = require("console");
 
 class NotesManager {
   constructor() {
@@ -87,7 +86,6 @@ class NotesManager {
         console.log("se borró la NOTA: ", id);
         return nota;
       }
-      const notas = archivo.filter()
     } catch (error) {
       console.log(error);
     }
